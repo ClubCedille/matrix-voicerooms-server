@@ -1,0 +1,21 @@
+{
+    "schemes": [
+        "http"
+    ],
+    "swagger": "2.0",
+    "info": {
+        "title": "Matrix Voicerooms Web Server",
+        "contact": {},
+        "version": "2.0"
+    },
+    "host": "localhost:8080",
+    "basePath": "/",
+    "paths": {
+        "/health": {
+            "get": {
+                "summary": "Get Health",
+                "responses": {}
+            }
+        }
+    }
+}

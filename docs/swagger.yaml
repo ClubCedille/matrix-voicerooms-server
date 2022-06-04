@@ -1,0 +1,14 @@
+basePath: /
+host: localhost:8080
+info:
+  contact: {}
+  title: Matrix Voicerooms Web Server
+  version: "2.0"
+paths:
+  /health:
+    get:
+      responses: {}
+      summary: Get Health
+schemes:
+- http
+swagger: "2.0"
